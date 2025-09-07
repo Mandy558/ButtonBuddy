@@ -1,4 +1,4 @@
-• Introduction: What ButtonBuddy is and why it matters (first lines already look good).
+• Introduction: What ButtonBuddy is and why it matters.
 
 • Demo Screenshot of the FastAPI docs or CLI conversation.
 
