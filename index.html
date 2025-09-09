@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>ButtonBuddy</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">
+      <span class="dot"></span>
+      <span class="name">ButtonBuddy</span>
+    </div>
+    <div class="controls">
+      <input id="baseUrl" class="base-url" placeholder="http://127.0.0.1:8000" />
+      <button id="checkBtn" type="button" title="Check backend health">Check</button>
+    </div>
+  </header>
+
+  <main class="container">
+    <div id="chat" class="chat">
+      <div class="bubble bot">Hi! I’m ButtonBuddy. Ask me anything I can help with offline.</div>
+    </div>
+
+    <form id="composer" class="composer">
+      <textarea id="message" rows="1" placeholder="Type a message… (Shift+Enter for newline)"></textarea>
+      <button id="sendBtn" type="submit">Send</button>
+    </form>
+
+    <footer class="footer">
+      Offline-first. ButtonBuddy can’t fetch internet data (news, weather, etc.).
+    </footer>
+  </main>
+
+  <!-- cache-bust -->
+  <script src="script.js?v=7"></script>
+</body>
+</html>
