@@ -27,7 +27,7 @@
    - Leave that window open too (this serves the chat page)
 
 3. **Open ButtonBuddy**  
-   - Copy this address: **http://127.0.0.1:5000**  
+   - Copy this address: **http://127.0.0.1:5500/**  
    - Paste it into your browser’s search bar or address bar  
    - Start chatting — everything runs locally and stays private 🎉
 
