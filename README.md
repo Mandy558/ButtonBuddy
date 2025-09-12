@@ -14,7 +14,7 @@
 
 1. **Download or Clone the Repo**  
    - Click the green **Code** button → **Download ZIP** → extract it  
-   - *or* use Git: **Extract the buttonbuddy_v2 **
+   - *or* use Git:
      ```bash
      git clone https://github.com/Mandy558/ButtonBuddy.git
      cd ButtonBuddy
